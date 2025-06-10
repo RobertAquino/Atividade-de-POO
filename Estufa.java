@@ -11,9 +11,9 @@ public class Estufa {
         
         if(limiteUmidade() != 1 || limiteTemperatura() != 1)
         {
-            umidade = 0.0;
+            this.umidade = 0.0;
             System.out.println("Nao foi possiviel criar esta estufa!");
-            temperatura= 0.0;
+            this.temperatura = 0.0;
             return;
         }
         System.out.println("Estufa criada com sucesso!");
